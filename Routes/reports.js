@@ -18,10 +18,9 @@ var cinemexSchema = mongoose.Schema({
 
 var cinemexurl = mongoose.model('cinemexURL', cinemexSchema, 'cinemexURL');
 
-router.route('/cinemex').get(function (req, res) {
+router.route('/cinemexURL').get(function (req, res) {
 	cinemexurl.find({}, function (err, cinemexurl) {
 		if (err) return console.error(err);
-		readPeliculas
 		res.json(cinemexurl);
 		console.log(cinemexurl);
 	})
@@ -63,6 +62,7 @@ router.route('/peliculas/:peliculaID').get(function (req, res) {
 		console.log(cines);
 	})
 })
+
 
 /*
 
