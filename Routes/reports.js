@@ -50,6 +50,21 @@ router.route('/peliculas/:peliculaID').get(function (req, res) {
 		console.log(cines);
 	})
 })
+
+var CinesSchema = mongoose.Schema({
+	url: String
+});
+
+var CinesURL = mongoose.model('CinesURL', CinesSchema);
+
+router.route('/CinesURL').get(function (req, res) {
+	CinesURL.find({}, function (err, cinemexURL) {
+		if (err) return console.error(err);
+		res.json(cinemexURL);
+		console.log(cinemexURL);
+	})
+})
+
 /*
 
 var PerroSchema = mongoose.Schema({
