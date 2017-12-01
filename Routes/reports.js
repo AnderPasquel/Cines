@@ -6,13 +6,26 @@ mongoose.connect('mongodb://AnderP:12341234@ds117336.mlab.com:17336/cines_scrape
 
 var router = express.Router();
 
-
-
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error;'));
 db.once('open', function () {
 
 });
+
+var cinemexSchema = mongoose.Schema({
+	url: String
+});
+
+var cinemexurl = mongoose.model('cinemexURL', cinemexSchema, 'cinemexURL');
+
+router.route('/cinemexURL').get(function (req, res) {
+	cinemexurl.find({}, function (err, cinemexurl) {
+		if (err) return console.error(err);
+		readPeliculas
+		res.json(cinemexurl);
+		console.log(cinemexurl);
+	})
+})
 
 var CineSchema = mongoose.Schema({
 	cine: String
@@ -48,20 +61,6 @@ router.route('/peliculas/:peliculaID').get(function (req, res) {
 		if (err) return console.error(err);
 		res.json(cines);
 		console.log(cines);
-	})
-})
-
-var CinesSchema = mongoose.Schema({
-	url: String
-});
-
-var CinesURL = mongoose.model('CinesURL', CinesSchema);
-
-router.route('/CinesURL').get(function (req, res) {
-	CinesURL.find({}, function (err, cinemexURL) {
-		if (err) return console.error(err);
-		res.json(cinemexURL);
-		console.log(cinemexURL);
 	})
 })
 
