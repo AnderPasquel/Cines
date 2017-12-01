@@ -1,0 +1,15 @@
+{
+    "titulo": "Coco",
+    "clasificacion": "A",
+    "version": "Español",
+    "dia": "Viernes 27 de octubre",
+    "horario": "09:30 PM",
+    "cine": "Cinemex Céntrika",
+    "sala": "8",
+    "precio": {
+        "precioMasterPass": "$51.00 c/u",
+        "Adulto": "$51.00 c/u",
+        "MayorSesenta": "$36.00 c/u",
+        "Menor": "$36.00 c/u"
+    }
+}

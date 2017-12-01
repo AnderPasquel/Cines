@@ -1,0 +1,20 @@
+{
+  "name": "reportapi",
+  "version": "1.0.0",
+  "description": "report api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4"
+  },
+  "engines": {
+    "node": "8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Emmanuel",
+  "license": "ISC"
+}
