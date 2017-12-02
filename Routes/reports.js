@@ -1,4 +1,3 @@
-const _ = require('underscore');
 var Report = require('./../Models/report');
 var express = require('express');
 var mongoose = require('mongoose');
