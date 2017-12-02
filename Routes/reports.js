@@ -27,7 +27,7 @@ router.route('/cinemexURL').get(function (req, res) {
 	})
 })
 
-var tituloSchema = mongoose.Schema({
+/*var tituloSchema = mongoose.Schema({
 	titulo: String
 });
 
@@ -39,7 +39,7 @@ router.route('/titulos').get(function (req, res) {
 		res.json(titulos);
 		console.log(titulos);
 	})
-})
+})*/
 
 var CineSchema = mongoose.Schema({
 	cine: String
