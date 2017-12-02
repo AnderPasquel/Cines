@@ -220,8 +220,6 @@
     </div>
 
 
-
-    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
     <div class="w3-main">
         <div class="w3-row w3-padding-64">
             <div id="tour" class="bg-1">
@@ -230,48 +228,63 @@
                     <p class="text-center">Consulta nuestra Cartelera
                         <br> Remember to book your tickets!</p>
                     <div class="row text-center">
-                        <div class="col-sm-4">
-                           
-                           <div class="row">
-                                <div class="col-sm-4"><p id='title0'></p></div>
-                          
-                              </div>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>Titulo</th>
+                                    <th>Cine</th>
+                                    <th>Complejo</th>
+                                    <th>Fecha</th>
+                                    <th>Funcion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><p id='title0'></p></td>
+                                    <td><p id='title1'></p></td>
+                                    <td><p id='title2'></p></td>
+                                    <td><p id='title3'></p></td>
+                                    <td><p id='title4'></p></td>
+                                    <td><p id='title5'></p></td>
+                                </tr>
+                            </tbody>
+                        </table> 
                     </div>
                 </div>
             </div>
-
         </div>
-        <script>
-            // Get the Sidebar
-            var mySidebar = document.getElementById("mySidebar");
+    </div>
+    </div>
 
-            // Get the DIV with overlay effect
-            var overlayBg = document.getElementById("myOverlay");
+    </div>
+    <script>
+        // Get the Sidebar
+        var mySidebar = document.getElementById("mySidebar");
 
-            // Toggle between showing and hiding the sidebar, and add overlay effect
-            function w3_open() {
-                if (mySidebar.style.display === 'block') {
-                    mySidebar.style.display = 'none';
-                    overlayBg.style.display = "none";
-                } else {
-                    mySidebar.style.display = 'block';
-                    overlayBg.style.display = "block";
-                }
-            }
+        // Get the DIV with overlay effect
+        var overlayBg = document.getElementById("myOverlay");
 
-
-            // Close the sidebar with the close button
-            function w3_close() {
-                mySidebar.style.display = "none";
+        // Toggle between showing and hiding the sidebar, and add overlay effect
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
                 overlayBg.style.display = "none";
+            } else {
+                mySidebar.style.display = 'block';
+                overlayBg.style.display = "block";
             }
-        </script>
+        }
 
-        <script>
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+            overlayBg.style.display = "none";
+        }
+    </script>
+
+    <script>
         //$.getJSON("https://cines-api.herokuapp.com/api/peliculas", function(result){
         //console.log(result);
        /* $.ajax({
@@ -288,23 +301,38 @@
             }
         });*/
      //});
-        </script>
-        <script>
-            var root = 'https://cines-api.herokuapp.com/api/peliculas/5a20b3ee22ca112a7026015a';
+    </script>
+    <script>
+        var root = 'https://cines-api.herokuapp.com/api/peliculas/5a20b3ee22ca112a7026015a';
 
-            $.ajax({
-                url: root,
-                type: "GET",
-                beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); }
-            }).then(function (data) {
-                //var json = JSON.parse(data)
-                     var q = [];
-                    console.log(data);
-                    q.push(data.complejo);
-                    $("<p>" + q + "</p>").appendTo("#title0");
-                
-            });
-        </script>
+        $.ajax({
+            url: root,
+            type: "GET",
+            beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); }
+        }).then(function (data) {
+            //var json = JSON.parse(data)
+            var q = [];
+            var w = [];
+            var e = [];
+            var r = [];
+            var t = [];
+            var y = [];
+            console.log(data);
+            q.push(data._id);
+            $("<p>" + q + "</p>").appendTo("#title0");
+            w.push(data.titulo);
+            $("<p>" + w + "</p>").appendTo("#title1");
+            e.push(data.cine);
+            $("<p>" + e + "</p>").appendTo("#title2");
+            r.push(data.complejo);
+            $("<p>" + r + "</p>").appendTo("#title3");
+            t.push(data.fecha);
+            $("<p>" + t + "</p>").appendTo("#title4");
+            y.push(data.funcion);
+            $("<p>" + y + "</p>").appendTo("#title5");
+
+        });
+    </script>
 
 </body>
 
