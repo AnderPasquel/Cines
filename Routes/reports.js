@@ -30,7 +30,7 @@ var tituloSchema = mongoose.Schema({
 	titulo: String
 });
 
-var titulos = mongoose.model('titulo', tituloSchema, 'titulo');
+var titulos = mongoose.model('titulos', tituloSchema, 'titulos');
 
 router.route('/titulos').get(function (req, res) {
 	titulos.find({}, function (err, titulos) {
