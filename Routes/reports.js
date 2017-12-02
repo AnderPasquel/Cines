@@ -1,3 +1,4 @@
+const _ = require('underscore');
 var Report = require('./../Models/report');
 var express = require('express');
 var mongoose = require('mongoose');
@@ -23,6 +24,20 @@ router.route('/cinemexURL').get(function (req, res) {
 		if (err) return console.error(err);
 		res.json(cinemexurl);
 		console.log(cinemexurl);
+	})
+})
+
+var tituloSchema = mongoose.Schema({
+	titulo: String
+});
+
+var titulos = mongoose.model('titulo', tituloSchema, 'titulo');
+
+router.route('/titulos').get(function (req, res) {
+	titulos.find({}, function (err, titulos) {
+		if (err) return console.error(err);
+		res.json(titulos);
+		console.log(titulos);
 	})
 })
 
@@ -62,51 +77,5 @@ router.route('/peliculas/:peliculaID').get(function (req, res) {
 		console.log(cines);
 	})
 })
-
-
-/*
-
-var PerroSchema = mongoose.Schema({
-	name: String,
-	raza: String,
-	edad: String
-});
-
-var Perro = mongoose.model('Perro', PerroSchema);
-
-router.route('/perros').get(function(req, res){
-	console.log('si se metio');
-	Perro.find(function(err, perros){
-	if(err) return console.error(err);
-	res.json(perros);
-	console.log(perros);
-})
-})
-
-
-
-
-router.route('/reports').get(function(req, res){
-
-	var content;
-
-			fs.readFile('./Routes/output.json', 'utf-8', function(err, data){
-
-				content = data;
-
-		 	console.log('File successfuly read!');
-
-
-			res.json(content);
-
-		});
-
-});
-
-router.route('/reports/:id').get(function(req, res){
-	res.json({id: 0});
-})*/
-
-
 
 module.exports = router; 
