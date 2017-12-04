@@ -40,6 +40,19 @@ router.route('/titulos').get(function (req, res) {
 	})
 })
 
+var imgSchema = mongoose.Schema({
+	titulo: String
+});
+
+var imgURL = mongoose.model('imgURL', imgSchema, 'imgURL');
+
+router.route('/imgURL').get(function (req, res) {
+	imgURL.find({}, function (err, imgURL) {
+		if (err) return console.error(err);
+		res.json(imgURL);
+		console.log(imgURL);
+	})
+})
 var CineSchema = mongoose.Schema({
 	cine: String
 });
