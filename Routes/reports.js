@@ -12,17 +12,18 @@ db.once('open', function () {
 
 });
 
-var cinemexSchema = mongoose.Schema({
-	url: String
+var complejoSchema = mongoose.Schema({
+	cine: String,
+	complejo: String
 });
 
-var cinemexurl = mongoose.model('Complejo', cinemexSchema, 'Complejo');
+var complejo = mongoose.model('Complejo', complejoSchema, 'Complejo');
 
-router.route('/complejos').get(function (req, res) {
-	cinemexurl.find({}, function (err, cinemexurl) {
+router.route('/complejo').get(function (req, res) {
+	complejo.find({}, function (err, complejo) {
 		if (err) return console.error(err);
-		res.json(cinemexurl);
-		console.log(cinemexurl);
+		res.json(complejo);
+		console.log(complejo);
 	})
 })
 
@@ -40,19 +41,6 @@ router.route('/peliculas').get(function (req, res) {
 	})
 })
 
-var imgSchema = mongoose.Schema({
-	titulo: String
-});
-
-var imgURL = mongoose.model('imgURL', imgSchema, 'imgURL');
-
-router.route('/imgURL').get(function (req, res) {
-	imgURL.find({}, function (err, imgURL) {
-		if (err) return console.error(err);
-		res.json(imgURL);
-		console.log(imgURL);
-	})
-})
 var CineSchema = mongoose.Schema({
 	cine: String
 });

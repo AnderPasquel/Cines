@@ -227,8 +227,9 @@
                     <h3 class="text-center">Cartelera Cinemex</h3>
                     <p class="text-center">Consulta nuestra Cartelera
                         <br> Remember to book your tickets!</p>
+                        <h1 class="text-center">COCO</h1>
                     <div class="row text-center">
-                        <table class="table">
+                        <table class="table movie-list">
                             <thead>
                                 <tr>
                                     <th>id</th>
@@ -285,53 +286,38 @@
     </script>
 
     <script>
-        //$.getJSON("https://cines-api.herokuapp.com/api/peliculas", function(result){
-        //console.log(result);
-       /* $.ajax({
-            url: "https://cines-api.herokuapp.com/api/titulos",
-            type: "GET",
-            beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); },
-            success: function (msg) {
-                console.log(msg);
-                var t = [];
-                console.log(msg.titulosUnicos);
-                t.push(msg.titulosUnicos);
-                console.log(t);
-                $("<p>" + t + "</p>").appendTo("#title");
-            }
-        });*/
-     //});
-    </script>
-    <script>
-        var root = 'https://cines-api.herokuapp.com/api/peliculas/5a20b3ee22ca112a7026015a';
+     $.ajax({
+                url: "https://cines-api.herokuapp.com/api/complejos",
+                type: "GET",
+                success: function (result) {
+                    console.log(result);
+                    var cont = 0;
+                    for(var index in result){
+                        index.map(complejo =>{
+                            console.log(cont);
+                            cont++;
+                            console.log(complejo);
+                            complejo.status = 'listo'
+                            console.log(complejo.cine);
+                        })
+                    }
+                    result.map(pelicula => {
+                        console.log(cont);
+                        cont++;
+                        console.log(pelicula);
+                        pelicula.status = 'done'
+                        console.log(pelicula.cine);
 
-        $.ajax({
-            url: root,
-            type: "GET",
-            beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); }
-        }).then(function (data) {
-            //var json = JSON.parse(data)
-            var q = [];
-            var w = [];
-            var e = [];
-            var r = [];
-            var t = [];
-            var y = [];
-            console.log(data);
-            q.push(data._id);
-            $("<p>" + q + "</p>").appendTo("#title0");
-            w.push(data.titulo);
-            $("<p>" + w + "</p>").appendTo("#title1");
-            e.push(data.cine);
-            $("<p>" + e + "</p>").appendTo("#title2");
-            r.push(data.complejo);
-            $("<p>" + r + "</p>").appendTo("#title3");
-            t.push(data.fecha);
-            $("<p>" + t + "</p>").appendTo("#title4");
-            y.push(data.funcion);
-            $("<p>" + y + "</p>").appendTo("#title5");
+                        $(".movie-list").append('<p>'+pelicula._id+'</p>');
+                    })
 
-        });
+
+
+                    //t.push(data.titiloPelicula);
+                    // console.log(t);
+                    //$("<p>" + t + "</p>").appendTo("#title0");
+                }
+            });
     </script>
 
 </body>
