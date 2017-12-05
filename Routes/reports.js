@@ -32,7 +32,7 @@ var tituloSchema = mongoose.Schema({
 
 var titulos = mongoose.model('Peliculas', tituloSchema, 'Peliculas');
 
-router.route('/Peliculas').get(function (req, res) {
+router.route('/peliculas').get(function (req, res) {
 	titulos.find({}, function (err, titulos) {
 		if (err) return console.error(err);
 		res.json(titulos);
