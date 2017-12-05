@@ -343,73 +343,25 @@
         </script>
 
         <script>
-        $.getJSON("https://cines-api.herokuapp.com/api/peliculas", function(result){
+        $.getJSON("https://cines-api.herokuapp.com/api/Peliculas", function(result){
         console.log(result);
         $.ajax({
-            url: "https://cines-api.herokuapp.com/api/imgURL",
+            url: "https://cines-api.herokuapp.com/api/Peliculas",
             type: "GET",
             beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); },
             success: function (data) {
                 console.log(data);
-                var t = [];
-                console.log(data.titulosUnicos);
-                console.log(data.URL);
-                t.push(data.titulosUnicos);
-                console.log(t);
-                $("<p>" + t + "</p>").appendTo("#title0");
+                data.map(pelicula => pelicula.status = 'done' )
+                console.log(data)
+            
+        
+                //t.push(data.titiloPelicula);
+               // console.log(t);
+                //$("<p>" + t + "</p>").appendTo("#title0");
             }
         });
      });
         </script>
-        <script>
-           /* var root = 'https://cines-api.herokuapp.com/api/imgURL';
-
-            $.ajax({
-                url: root,
-                type: "GET",
-                beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); }
-            }).then(function (data) {
-                //var json = JSON.parse(data)
-                var q = [];
-                var w = [];
-                var e = [];
-                var r = [];
-                var t = [];
-                var y = [];
-                var u = [];
-                var i = [];
-                var o = [];
-                var p = [];
-                var w = [];
-                var a = [];
-                for (let letter of data) {
-                    console.log(letter);
-                    q.push(letter.titulosUnicos[0]);
-                    w.push(letter.titulosUnicos[1]);
-                    e.push(letter.titulosUnicos[2]);
-                    r.push(letter.titulosUnicos[3]);
-                    t.push(letter.titulosUnicos[4]);
-                    y.push(letter.titulosUnicos[5]);
-                    u.push(letter.titulosUnicos[6]);
-                    i.push(letter.titulosUnicos[7]);
-                    o.push(letter.titulosUnicos[8]);
-                    p.push(letter.titulosUnicos[9]);
-                    a.push(letter.titulosUnicos[10]);
-                    $("<p>" + q + "</p>").appendTo("#title0");
-                    $("<p>" + w + "</p>").appendTo("#title1");
-                    $("<p>" + e + "</p>").appendTo("#title2");
-                    $("<p>" + r + "</p>").appendTo("#title3");
-                    $("<p>" + t + "</p>").appendTo("#title4");
-                    $("<p>" + y + "</p>").appendTo("#title5");
-                    $("<p>" + u + "</p>").appendTo("#title6");
-                    $("<p>" + i + "</p>").appendTo("#title7");
-                    $("<p>" + o + "</p>").appendTo("#title8");
-                    $("<p>" + p + "</p>").appendTo("#title9");
-                    $("<p>" + a + "</p>").appendTo("#title10");
-                }
-            });*/
-        </script>
-
 </body>
 
 </html>
