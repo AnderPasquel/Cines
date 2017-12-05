@@ -343,16 +343,20 @@
         </script>
 
         <script>
-        $.getJSON("https://cines-api.herokuapp.com/api/Peliculas", function(result){
-        console.log(result);
         $.ajax({
-            url: "https://cines-api.herokuapp.com/api/Peliculas",
+            url: "https://cines-api.herokuapp.com/api/peliculas",
             type: "GET",
-            beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); },
-            success: function (data) {
-                console.log(data);
-                data.map(pelicula => pelicula.status = 'done' )
-                console.log(data)
+            success: function (result) {
+                console.log(result);
+                var cont = 0;
+                result.map(pelicula => {
+                    console.log(cont);
+                    cont++;
+                    console.log(pelicula);
+                    pelicula.status = 'done' 
+                    console.log(pelicula.urlPelicula);
+                })
+            
             
         
                 //t.push(data.titiloPelicula);
@@ -360,7 +364,6 @@
                 //$("<p>" + t + "</p>").appendTo("#title0");
             }
         });
-     });
         </script>
 </body>
 
