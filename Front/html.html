@@ -343,25 +343,26 @@
         </script>
 
         <script>
-        //$.getJSON("https://cines-api.herokuapp.com/api/peliculas", function(result){
-        //console.log(result);
-       /* $.ajax({
-            url: "https://cines-api.herokuapp.com/api/titulos",
+        $.getJSON("https://cines-api.herokuapp.com/api/peliculas", function(result){
+        console.log(result);
+        $.ajax({
+            url: "https://cines-api.herokuapp.com/api/imgURL",
             type: "GET",
             beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); },
-            success: function (msg) {
-                console.log(msg);
+            success: function (data) {
+                console.log(data);
                 var t = [];
-                console.log(msg.titulosUnicos);
-                t.push(msg.titulosUnicos);
+                console.log(data.titulosUnicos);
+                console.log(data.URL);
+                t.push(data.titulosUnicos);
                 console.log(t);
-                $("<p>" + t + "</p>").appendTo("#title");
+                $("<p>" + t + "</p>").appendTo("#title0");
             }
-        });*/
-     //});
+        });
+     });
         </script>
         <script>
-            var root = 'https://cines-api.herokuapp.com/api/titulos';
+           /* var root = 'https://cines-api.herokuapp.com/api/imgURL';
 
             $.ajax({
                 url: root,
@@ -381,7 +382,6 @@
                 var p = [];
                 var w = [];
                 var a = [];
-
                 for (let letter of data) {
                     console.log(letter);
                     q.push(letter.titulosUnicos[0]);
@@ -406,9 +406,8 @@
                     $("<p>" + o + "</p>").appendTo("#title8");
                     $("<p>" + p + "</p>").appendTo("#title9");
                     $("<p>" + a + "</p>").appendTo("#title10");
-
                 }
-            });
+            });*/
         </script>
 
 </body>
