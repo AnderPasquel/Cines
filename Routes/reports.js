@@ -16,9 +16,9 @@ var cinemexSchema = mongoose.Schema({
 	url: String
 });
 
-var cinemexurl = mongoose.model('url', cinemexSchema, 'url');
+var cinemexurl = mongoose.model('Complejo', cinemexSchema, 'Complejo');
 
-router.route('/cinemexURL').get(function (req, res) {
+router.route('/complejos').get(function (req, res) {
 	cinemexurl.find({}, function (err, cinemexurl) {
 		if (err) return console.error(err);
 		res.json(cinemexurl);
@@ -71,9 +71,9 @@ var PeliculasSchema = mongoose.Schema({
 	pelicula: String
 });
 
-var Pelicula = mongoose.model('Pelicula', PeliculasSchema);
+var Pelicula = mongoose.model('Pelicula', PeliculasSchema,'Pelicula');
 
-router.route('/peliculas').get(function (req, res) {
+router.route('/cines').get(function (req, res) {
 	Cine.find({}, 'titulo', function (err, cines) {
 		if (err) return console.error(err);
 		res.json(cines);
@@ -81,7 +81,7 @@ router.route('/peliculas').get(function (req, res) {
 	})
 })
 
-router.route('/peliculas/:peliculaID').get(function (req, res) {
+router.route('/cines/:peliculaID').get(function (req, res) {
 	console.log(req.params.peliculaID)
 	Cine.findById(req.params.peliculaID, function (err, cines) {
 		if (err) return console.error(err);

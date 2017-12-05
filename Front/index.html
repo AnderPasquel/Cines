@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<title>Cine MexPol</title>
+<title>MexPo</title>
 <meta charset="UTF-8">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="./css/style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -230,88 +231,6 @@
                     <p class="text-center">Consulta nuestra Cartelera
                         <br> Remember to book your tickets!</p>
                     <div class="row text-center movie-list">
-                         <!-- <div class="col-sm-4">
-                            <div class="thumbnail">
-                                    <a href="#">
-                                <p id="title0"></p>
-                                <img src="https://static.cinemex.com/movie_posters/gtgBEeaG1OW4kq5-182x272.jpg" alt="Coco" width="182" height="272" href =# class="img-rounded">
-                            </a>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                    <a href="/Users/Java/Documents/GitHub/Cines/2.html">
-                                <p id="title1"></p>
-                                <img src="https://static.cinemex.com/movie_posters/TBKBdbztVSTfRzE-182x272.jpg" alt="La Liga de la Justicia" width="182"
-                                    height="272" class="img-rounded">
-                                    </a>
-
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title2"></p>
-                                <img src="https://static.cinemex.com/movie_posters/Pe9BSvMz7M3N679-182x272.jpg" alt="Guerra De Papás 2" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title3"></p>
-                                <img src="https://static.cinemex.com/movie_posters/u6kluN36cBWf5HQ-182x272.jpg" alt="Suburbicon: Bienvenidos Al Paraíso"
-                                    width="182" height="272" class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title4"></p>
-                                <img src="https://static.cinemex.com/movie_posters/8kfswDxy7rVCuez-182x272.jpg" alt="Camino A Marte" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title5"></p>
-                                <img src="https://static.cinemex.com/movie_posters/SbmD0mmwdaWeGdf-182x272.jpg" alt="Thor 3: Ragnarok" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title6"></p>
-                                <img src="https://static.cinemex.com/movie_posters/E4TjNCxZYM4qZM5-182x272.jpg" alt="Voces Ocultas" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title7"></p>
-                                <img src="https://static.cinemex.com/movie_posters/DJL4TGlhKAuWDEh-182x272.jpg" alt="La Gran Fuga" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title8"></p>
-                                <img src="https://static.cinemex.com/movie_posters/D9P0ewjMMHuaAD0-182x272.jpg" alt="Victoria And Abdul" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title9"></p>
-                                <img src="https://static.cinemex.com/movie_posters/XObbLjfjkOccM0z-182x272.jpg" alt="San Francisco" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="thumbnail">
-                                <p id="title10"></p>
-                                <img src="https://static.cinemex.com/movie_posters/duLMlt1FclqLqJo-182x272.jpg" alt="San Francisco" width="182" height="272"
-                                    class="img-rounded">
-                            </div>
-                        </div>
-                    -->
                     </div>
                 </div>
             </div>
@@ -344,35 +263,35 @@
         </script>
 
         <script>
-        $.ajax({
-            url: "https://cines-api.herokuapp.com/api/peliculas",
-            type: "GET",
-            success: function (result) {
-                console.log(result);
-                var cont = 0;
-                result.map(pelicula => {
-                    console.log(cont);
-                    cont++;
-                    console.log(pelicula);
-                    pelicula.status = 'done' 
-                    console.log(pelicula.urlPelicula);
+            $.ajax({
+                url: "https://cines-api.herokuapp.com/api/peliculas",
+                type: "GET",
+                success: function (result) {
+                    console.log(result);
+                    var cont = 0;
+                    result.map(pelicula => {
+                        console.log(cont);
+                        cont++;
+                        console.log(pelicula);
+                        pelicula.status = 'done'
+                        console.log(pelicula.urlPelicula);
 
-                    $(".movie-list").append('<div class="col-sm-4">\
+                        $(".movie-list").append('<div class="col-sm-4">\
                             <div class="thumbnail">\
-                                    <a href="#">\
-                                <p id="title0">'+pelicula.titiloPelicula+'</p>\
-                                <img src="'+ pelicula.urlPelicula +'" alt="Coco" width="182" height="272" href =# class="img-rounded">\
+                                    <a href="./titulos/'+ pelicula.titiloPelicula + '.html">\
+                                <p id="title0">'+ pelicula.titiloPelicula + '</p>\
+                                <img src="'+ pelicula.urlPelicula + '" alt="Coco" width="182" height="272" href =# class="img-rounded">\
                             </a>\
                             </div>');
-                })
-            
-         
-        
-                //t.push(data.titiloPelicula);
-               // console.log(t);
-                //$("<p>" + t + "</p>").appendTo("#title0");
-            }
-        });
+                    })
+
+
+
+                    //t.push(data.titiloPelicula);
+                    // console.log(t);
+                    //$("<p>" + t + "</p>").appendTo("#title0");
+                }
+            });
         </script>
 </body>
 
