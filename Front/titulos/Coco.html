@@ -287,32 +287,22 @@
 
     <script>
      $.ajax({
-                url: "https://cines-api.herokuapp.com/api/complejos",
+                url: "https://cines-api.herokuapp.com/api/complejo",
                 type: "GET",
                 success: function (result) {
                     console.log(result);
                     var cont = 0;
-                    for(var index in result){
-                        index.map(complejo =>{
+                        result.map(pelicula =>{
                             console.log(cont);
                             cont++;
-                            console.log(complejo);
-                            complejo.status = 'listo'
-                            console.log(complejo.cine);
+                            console.log(pelicula[cont].complejo);
+                            pelicula.status = 'Yeah!!'
+                            for(var i=0 ; i <= 9; i++){
+                                $(".movie-list").append('<p>'+pelicula[i].complejo+'</p>');
+                            }
+                            
                         })
-                    }
-                    result.map(pelicula => {
-                        console.log(cont);
-                        cont++;
-                        console.log(pelicula);
-                        pelicula.status = 'done'
-                        console.log(pelicula.cine);
-
-                        $(".movie-list").append('<p>'+pelicula._id+'</p>');
-                    })
-
-
-
+                      
                     //t.push(data.titiloPelicula);
                     // console.log(t);
                     //$("<p>" + t + "</p>").appendTo("#title0");

@@ -78,4 +78,19 @@ router.route('/cines/:peliculaID').get(function (req, res) {
 	})
 })
 
+var complejoSchema = mongoose.Schema({
+	complejo: String
+});
+
+var complejos = mongoose.model('complejos', complejoSchema, 'complejos');
+
+router.route('/complejos').get(function (req, res) {
+	complejos.find({}, function (err, complejos) {
+		if (err) return console.error(err);
+		res.json(complejos);
+		console.log(complejos);
+	})
+})
+
+
 module.exports = router; 
