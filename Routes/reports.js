@@ -69,9 +69,9 @@ router.route('/cines').get(function (req, res) {
 	})
 })
 
-router.route('/cines/:peliculaID').get(function (req, res) {
+router.route('/peliculas/:peliculaID').get(function (req, res) {
 	console.log(req.params.peliculaID)
-	Cine.findById(req.params.peliculaID, function (err, cines) {
+	Cine.find({ title: 'Guerra De Papás 2' }, function (err, cines) {
 		if (err) return console.error(err);
 		res.json(cines);
 		console.log(cines);
