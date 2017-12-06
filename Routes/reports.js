@@ -69,9 +69,9 @@ router.route('/cines').get(function (req, res) {
 	})
 })
 
-router.route('/peliculas/:peliculaID').get(function (req, res) {
-	console.log(req.params.peliculaID)
-	Cine.find({ title: 'Guerra De Papás 2' }, function (err, cines) {
+router.route('/peliculas/:idMovie').get(function (req, res) {
+	console.log(req.params.idMovie)
+	Cine.find({ idMovieUnique: "5a25fcc98f964a33081cd10b" }, function (err, cines) {
 		if (err) return console.error(err);
 		res.json(cines);
 		console.log(cines);
@@ -100,6 +100,15 @@ var funciones = mongoose.model('funciones', funcionesSchema, 'funciones');
 
 router.route('/funciones').get(function (req, res) {
 	funciones.find({}, function (err, funciones) {
+		if (err) return console.error(err);
+		res.json(funciones);
+		console.log(funciones);
+	})
+})
+
+router.route('/funciones/:idMovie').get(function (req, res) {
+	console.log(req.params.idMovie);
+	funciones.find({idMovieUnique: req.params.idMovie}, function (err, funciones) {
 		if (err) return console.error(err);
 		res.json(funciones);
 		console.log(funciones);
