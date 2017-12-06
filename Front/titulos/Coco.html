@@ -229,7 +229,16 @@
                         <br> Remember to book your tickets!</p>
                     <h1 class="text-center">COCO</h1>
                     <div class="row text-center grid-panel">
-                        <table class="table movie-list">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Complejo</th>
+                                    <th>Fecha</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody class="contenido">
+                            </tbody>
                         </table>
                     </div>
                 </div>
@@ -267,27 +276,34 @@
 
     <script>
         $.ajax({
-            url: "https://cines-api.herokuapp.com/api/complejo",
+            url: "https://cines-api.herokuapp.com/api/funciones/5a25fcc98f964a33081cd10d",
             type: "GET",
             success: function (result) {
                 console.log(result);
                 var cont = 0;
-                result.map(pelicula => {
+                var pel = [];
+                result.map(pelicula =>{
+                    console.log(pelicula.precio);
+                    $(".contenido").append('<tr>\
+                                <td>'+ pelicula.complejo + '</td>\
+                                <td>'+ pelicula.fecha + '</td>\
+                                <td>'+ pelicula.precio[0,1,2] + '</td>\
+                              </tr>');
+                }) 
+                    
+                
+                /*result.map(pelicula => {
                     console.log(cont);
                     cont++;
-                    console.log(pelicula[cont].complejo);
                     pelicula.status = 'Yeah!!'
-                    for (var i = 0; i <= 9; i++) {
-                        console.log(pelicula[i].complejo);
-                        $(".grid-panel").append('<table class="table table-responsive">\
-                            <tr>\
-                                <td><a href="#">'+pelicula[i].complejo+'</a></td>\
-                              </tr>\
-                          </table>');
-                    }
-
-                })
-
+                    console.log(pelicula.complejo);
+                    $(".contenido").append('<tr>\
+                                <td>'+ pelicula.complejo + '</td>\
+                                <td>'+ pelicula.fecha + '</td>\
+                                <td>'+ pelicula.preciolista + '</td>\
+                              </tr>');
+                })*/
+                //console.log(pel);
                 //t.push(data.titiloPelicula);
                 // console.log(t);
                 //$("<p>" + t + "</p>").appendTo("#title0");
