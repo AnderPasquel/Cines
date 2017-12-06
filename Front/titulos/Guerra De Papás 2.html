@@ -213,7 +213,7 @@
             <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="#" class="w3-bar-item w3-button w3-theme-l1">Cinemex</a>
+            <a href="../index.html" class="w3-bar-item w3-button w3-theme-l1">Cinemex</a>
             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CartelerasCinemex</a>
 
         </div>
@@ -228,28 +228,17 @@
                     <p class="text-center">Consulta nuestra Cartelera
                         <br> Remember to book your tickets!</p>
                     <div class="row text-center">
-                        <table class="table">
+                        <table class="table table-hover">
                             <thead>
                                 <tr>
-                                    <th>id</th>
-                                    <th>Titulo</th>
-                                    <th>Cine</th>
                                     <th>Complejo</th>
                                     <th>Fecha</th>
-                                    <th>Funcion</th>
+                                    <th>Precio</th>
                                 </tr>
                             </thead>
-                            <tbody>
-                                <tr>
-                                    <td><p id='title0'></p></td>
-                                    <td><p id='title1'></p></td>
-                                    <td><p id='title2'></p></td>
-                                    <td><p id='title3'></p></td>
-                                    <td><p id='title4'></p></td>
-                                    <td><p id='title5'></p></td>
-                                </tr>
+                            <tbody class="contenido">
                             </tbody>
-                        </table> 
+                        </table>
                     </div>
                 </div>
             </div>
@@ -303,34 +292,48 @@
      //});
     </script>
     <script>
-        var root = 'https://cines-api.herokuapp.com/api/peliculas/5a20b3ee22ca112a7026015a';
-
         $.ajax({
-            url: root,
+            url: "https://cines-api.herokuapp.com/api/funciones/5a25fcc98f964a33081cd10b",
             type: "GET",
-            beforeSend: function (xhr) { xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); }
-        }).then(function (data) {
-            //var json = JSON.parse(data)
-            var q = [];
-            var w = [];
-            var e = [];
-            var r = [];
-            var t = [];
-            var y = [];
-            console.log(data);
-            q.push(data._id);
-            $("<p>" + q + "</p>").appendTo("#title0");
-            w.push(data.titulo);
-            $("<p>" + w + "</p>").appendTo("#title1");
-            e.push(data.cine);
-            $("<p>" + e + "</p>").appendTo("#title2");
-            r.push(data.complejo);
-            $("<p>" + r + "</p>").appendTo("#title3");
-            t.push(data.fecha);
-            $("<p>" + t + "</p>").appendTo("#title4");
-            y.push(data.funcion);
-            $("<p>" + y + "</p>").appendTo("#title5");
+            success: function (result) {
+                console.log(result);
+                var cont = 0;
+                
+                result.map(pelicula =>{
+                    var pel = [];
+                    console.log(pelicula.precio);
+                    pelicula.precio.forEach(function(valorPrecio){
+                        console.log(valorPrecio.monto);
+                        pel.push(" " + valorPrecio.tipo + " $" +valorPrecio.monto +'<br>');
+                    })
 
+
+                                        $(".contenido").append('<tr>\
+                                <td>'+ pelicula.complejo + '</td>\
+                                <td>'+ pelicula.fecha + '</td>\
+                                <td>'+ pel.join(' ') + '</td>\
+                              </tr>');
+                                        
+
+                }) 
+                    
+                
+                /*result.map(pelicula => {
+                    console.log(cont);
+                    cont++;
+                    pelicula.status = 'Yeah!!'
+                    console.log(pelicula.complejo);
+                    $(".contenido").append('<tr>\
+                                <td>'+ pelicula.complejo + '</td>\
+                                <td>'+ pelicula.fecha + '</td>\
+                                <td>'+ pelicula.preciolista + '</td>\
+                              </tr>');
+                })*/
+                //console.log(pel);
+                //t.push(data.titiloPelicula);
+                // console.log(t);
+                //$("<p>" + t + "</p>").appendTo("#title0");
+            }
         });
     </script>
 

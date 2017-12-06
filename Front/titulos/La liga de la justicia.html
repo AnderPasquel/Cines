@@ -213,7 +213,7 @@
             <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="#" class="w3-bar-item w3-button w3-theme-l1">Cinemex</a>
+            <a href="../index.html" class="w3-bar-item w3-button w3-theme-l1">Cinemex</a>
             <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CartelerasCinemex</a>
 
         </div>
@@ -228,13 +228,17 @@
                     <p class="text-center">Consulta nuestra Cartelera
                         <br> Remember to book your tickets!</p>
                     <div class="row text-center">
-                        <table class="table table-responsive">
-                            <tr>
-                                <td>asdasd</td>
-                                <td>asdasd</td>
-                                <td>asdasd</td>
-                              </tr>
-                          </table>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Complejo</th>
+                                    <th>Fecha</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody class="contenido">
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -288,28 +292,49 @@
      //});
     </script>
     <script>
-       $.ajax({
-        url: "https://cines-api.herokuapp.com/api/complejos",
-        type: "GET",
-        success: function (result) {
-            console.log(result);
-            var cont = 0;
-            result.map(pelicula => {
-                console.log(cont);
-                cont++;
-                console.log(pelicula);
-                pelicula.status = 'done'
-                console.log(pelicula.complejo);
+        $.ajax({
+            url: "https://cines-api.herokuapp.com/api/funciones/5a25fcc98f964a33081cd10a",
+            type: "GET",
+            success: function (result) {
+                console.log(result);
+                var cont = 0;
+                
+                result.map(pelicula =>{
+                    var pel = [];
+                    console.log(pelicula.precio);
+                    pelicula.precio.forEach(function(valorPrecio){
+                        console.log(valorPrecio.monto);
+                        pel.push(" " + valorPrecio.tipo + " $" +valorPrecio.monto +'<br>');
+                    })
 
-                $(".movie-list").append();
-            })
 
+                                        $(".contenido").append('<tr>\
+                                <td>'+ pelicula.complejo + '</td>\
+                                <td>'+ pelicula.fecha + '</td>\
+                                <td>'+ pel.join(' ') + '</td>\
+                              </tr>');
+                                        
 
-            //t.push(data.titiloPelicula);
-            // console.log(t);
-            //$("<p>" + t + "</p>").appendTo("#title0");
-        }
-    });
+                }) 
+                    
+                
+                /*result.map(pelicula => {
+                    console.log(cont);
+                    cont++;
+                    pelicula.status = 'Yeah!!'
+                    console.log(pelicula.complejo);
+                    $(".contenido").append('<tr>\
+                                <td>'+ pelicula.complejo + '</td>\
+                                <td>'+ pelicula.fecha + '</td>\
+                                <td>'+ pelicula.preciolista + '</td>\
+                              </tr>');
+                })*/
+                //console.log(pel);
+                //t.push(data.titiloPelicula);
+                // console.log(t);
+                //$("<p>" + t + "</p>").appendTo("#title0");
+            }
+        });
     </script>
 
 </body>
