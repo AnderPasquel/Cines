@@ -16,7 +16,7 @@ MongoClient.connect(url, function (err, db) {
         console.log(result);
         db.close();
     });*/
-    var obj = JSON.parse(fs.readFileSync('TitulosPeliculas.json', 'utf8'));
+    var obj = JSON.parse(fs.readFileSync('jsonpeliculas.json', 'utf8'));
         insertDocuments(db, obj, function () {
         db.close();
     });
@@ -26,7 +26,7 @@ MongoClient.connect(url, function (err, db) {
 
 var insertDocuments = function (db, obj, callback) {
     // Get the documents collection
-    var collection = db.collection('Peliculas');
+    var collection = db.collection('funciones');
     // Insert some documents
     collection.insertMany(obj, function (err, result) {
         console.log(collection);

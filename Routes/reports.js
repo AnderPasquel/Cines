@@ -92,5 +92,18 @@ router.route('/complejos').get(function (req, res) {
 	})
 })
 
+var funcionesSchema = mongoose.Schema({
+	funciones: String
+});
+
+var funciones = mongoose.model('funciones', funcionesSchema, 'funciones');
+
+router.route('/funciones').get(function (req, res) {
+	funciones.find({}, function (err, funciones) {
+		if (err) return console.error(err);
+		res.json(funciones);
+		console.log(funciones);
+	})
+})
 
 module.exports = router; 

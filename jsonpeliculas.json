@@ -1,0 +1,3292 @@
+// 20171205195007
+// http://localhost:8888/cinemex
+[
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "9"
+    },
+    {
+        "titulo": "Camino A Marte",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Voces Ocultas",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "12"
+    },
+    {
+        "titulo": "",
+        "cine": "",
+        "complejo": "",
+        "precio": [],
+        "fecha": "",
+        "funcion": ""
+    },
+    {
+        "titulo": "Thor 3: Ragnarok",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "11"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Gran Fuga",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Camino A Marte",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Voces Ocultas",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "12"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Gran Fuga",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$43.00 c/u",
+                "monto": 43
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "El Hijo De Pie Grande",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Mol Concordia",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "",
+        "cine": "",
+        "complejo": "",
+        "precio": [],
+        "fecha": "",
+        "funcion": ""
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$33.00 c/u",
+                "monto": 33
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "El Hijo De Pie Grande",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Voces Ocultas",
+        "cine": "Cinemex ",
+        "complejo": "Escobedo",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "9"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "La Gran Fuga",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Thor 3: Ragnarok",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Contry",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$38.00 c/u",
+                "monto": 38
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$28.00 c/u",
+                "monto": 28
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "9"
+    },
+    {
+        "titulo": "Camino A Marte",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Voces Ocultas",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "12"
+    },
+    {
+        "titulo": "",
+        "cine": "",
+        "complejo": "",
+        "precio": [],
+        "fecha": "",
+        "funcion": ""
+    },
+    {
+        "titulo": "Thor 3: Ragnarok",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "11"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Gran Fuga",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Camino A Marte",
+        "cine": "Cinemex ",
+        "complejo": "Céntrika",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$46.00 c/u",
+                "monto": 46
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$37.00 c/u",
+                "monto": 37
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Salinas Victoria",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$32.00 c/u",
+                "monto": 32
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "Victoria And Abdul",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "Suburbicon: Bienvenidos Al Paraíso",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Voces Ocultas",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "9"
+    },
+    {
+        "titulo": "Camino A Marte",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "10"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "La Gran Fuga",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$68.00 c/u",
+                "monto": 68
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$59.00 c/u",
+                "monto": 59
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "Escala Suicida",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Thor 3: Ragnarok",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "9"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "Camino A Marte",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "10"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fiesta Anáhuac",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Thor 3: Ragnarok",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Suburbicon: Bienvenidos Al Paraíso",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Cartas De Van Gogh",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$84.00 c/u",
+                "monto": 84
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$95.00 c/u",
+                "monto": 95
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$95.00 c/u",
+                "monto": 95
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Una Jungla De Locura",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "La Gran Fuga",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Una Jungla De Locura",
+        "cine": "Cinemex ",
+        "complejo": "Fashion Drive",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Thor 3: Ragnarok",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "7"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "Suburbicon: Bienvenidos Al Paraíso",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "6"
+    },
+    {
+        "titulo": "Voces Ocultas",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "11"
+    },
+    {
+        "titulo": "Camino A Marte",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "10"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "Guerra De Papás 2",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "9"
+    },
+    {
+        "titulo": "La Gran Fuga",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "3"
+    },
+    {
+        "titulo": "Escala Suicida",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "8"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "$50.00 c/u",
+                "monto": 50
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "$48.00 c/u",
+                "monto": 48
+            }
+        ],
+        "fecha": "Martes 05 de diciembre",
+        "funcion": "4"
+    },
+    {
+        "titulo": "Una Jungla De Locura",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "5"
+    },
+    {
+        "titulo": "Coco",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "1"
+    },
+    {
+        "titulo": "Voces Ocultas",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "11"
+    },
+    {
+        "titulo": "La Liga de la Justicia",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "2"
+    },
+    {
+        "titulo": "El Hijo De Pie Grande",
+        "cine": "Cinemex ",
+        "complejo": "Santa Catarina",
+        "precio": [
+            {
+                "tipo": "mayores",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "adultos",
+                "precioLista": "",
+                "monto": null
+            },
+            {
+                "tipo": "menores",
+                "precioLista": "",
+                "monto": null
+            }
+        ],
+        "fecha": "Miércoles 06 de diciembre",
+        "funcion": "7"
+    }
+]
