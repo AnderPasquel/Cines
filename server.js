@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
 	next();
 });
 
-app.use('/static',express.static('public'));
+app.use('/mexpo',express.static('public'));
 /*
 var router = express.Router();
 
