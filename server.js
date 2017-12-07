@@ -16,6 +16,8 @@ app.use(function (req, res, next) {
 	res.header("Access-Control-Allow-Headers", "Authorization,Origin, X-Requested-With, Content-Type, Accept");
 	next();
 });
+
+app.use('/static',express.static('public'));
 /*
 var router = express.Router();
 
