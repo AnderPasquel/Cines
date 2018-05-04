@@ -92,6 +92,20 @@ router.route('/complejos').get(function (req, res) {
 	})
 })
 
+var cinemexURLSchema = mongoose.Schema({
+	complejo: String
+});
+
+var cinemexURL = mongoose.model('cinemexURL', cinemexURLSchema, 'cinemexURL');
+
+router.route('/cinemexURL').get(function (req, res) {
+	cinemexURL.find({}, function (err, cinemexURL) {
+		if (err) return console.error(err);
+		res.json(cinemexURL);
+		console.log(cinemexURL);
+	})
+})
+
 var funcionesSchema = mongoose.Schema({
 	funciones: String
 });
