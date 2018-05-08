@@ -1,294 +1,202 @@
 <!DOCTYPE html>
-<html>
-<title>MexPo</title>
-<meta charset="UTF-8">
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="./css/style.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<style>
-    body {
-        font: 400 15px/1.8 Lato, sans-serif;
-        color: #777;
-    }
+<html lang="en">
 
-    h3,
-    h4 {
-        margin: 10px 0 30px 0;
-        letter-spacing: 10px;
-        font-size: 20px;
-        color: #111;
-    }
+<head>
+	<meta charset="UTF-8">
+	<title> Cinemex</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
 
-    .container {
-        padding: 80px 120px;
-    }
-
-    .person {
-        border: 10px solid transparent;
-        margin-bottom: 25px;
-        width: 80%;
-        height: 80%;
-        opacity: 0.7;
-    }
-
-    .person:hover {
-        border-color: #f1f1f1;
-    }
-
-    .carousel-inner img {
-        -webkit-filter: grayscale(90%);
-        filter: grayscale(90%);
-        /* make all photos black and white */
-        width: 100%;
-        /* Set width to 100% */
-        margin: auto;
-    }
-
-    .carousel-caption h3 {
-        color: #fff !important;
-    }
-
-    @media (max-width: 600px) {
-        .carousel-caption {
-            display: none;
-            /* Hide the carousel text when the screen is less than 600 pixels wide */
-        }
-    }
-
-    .bg-1 {
-        background: #2d2d30;
-        color: #bdbdbd;
-    }
-
-    .bg-1 h3 {
-        color: #fff;
-    }
-
-    .bg-1 p {
-        font-style: italic;
-    }
-
-    .list-group-item:first-child {
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-    }
-
-    .list-group-item:last-child {
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-
-    .thumbnail {
-        padding: 0 0 15px 0;
-        border: none;
-        border-radius: 0;
-        background-color: #2d2d30;
-    }
-
-    .thumbnail p {
-        margin-top: 15px;
-        color: rgb(221, 220, 220);
-    }
-
-    .btn {
-        padding: 10px 20px;
-        background-color: #333;
-        color: #1b09093f;
-        border-radius: 0;
-        transition: .2s;
-    }
-
-    .btn:hover,
-    .btn:focus {
-        border: 1px solid #333;
-        background-color: rgb(22, 22, 22);
-        color: #000;
-    }
-
-    .modal-header,
-    h4,
-    .close {
-        background-color: #333;
-        color: #fff !important;
-        text-align: center;
-        font-size: 30px;
-    }
-
-    .modal-header,
-    .modal-body {
-        padding: 40px 50px;
-    }
-
-    .nav-tabs li a {
-        color: #777;
-    }
-
-    #googleMap {
-        width: 100%;
-        height: 400px;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-
-    .navbar {
-        font-family: Montserrat, sans-serif;
-        margin-bottom: 0;
-        background-color: #2d2d30;
-        border: 0;
-        font-size: 11px !important;
-        letter-spacing: 4px;
-        opacity: 0.9;
-    }
-
-    .navbar li a,
-    .navbar .navbar-brand {
-        color: #d5d5d5 !important;
-    }
-
-    .navbar-nav li a:hover {
-        color: #fff !important;
-    }
-
-    .navbar-nav li.active a {
-        color: #fff !important;
-        background-color: #29292c !important;
-    }
-
-    .navbar-default .navbar-toggle {
-        border-color: transparent;
-    }
-
-    .open .dropdown-toggle {
-        color: #fff;
-        background-color: #555 !important;
-    }
-
-    .dropdown-menu li a {
-        color: #000 !important;
-    }
-
-    .dropdown-menu li a:hover {
-        background-color: red !important;
-    }
-
-    footer {
-        background-color: #2d2d30;
-        color: #f5f5f5;
-        padding: 32px;
-    }
-
-    footer a {
-        color: #f5f5f5;
-    }
-
-    footer a:hover {
-        color: #777;
-        text-decoration: none;
-    }
-
-    .form-control {
-        border-radius: 0;
-    }
-
-    textarea {
-        resize: none;
-    }
-</style>
-
+</head>
 
 <body>
+	<h1>
+		<span class="blue"></span>CARTELERA CINEMEX
+		<span class="blue"></span>
+	</h1>
+	<h1>
+		<span class="yellow">Titulo de Pelicula</pan>
+	</h1>
 
-    <!-- Navbar -->
-    <div class="w3-top">
-        <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
-            <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-theme-l1">Cinemex</a>
-            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">CartelerasCinemex</a>
+	<!--<table class="container">
+		<thead>
+			<tr>
+				<th>
+					<h1>Complejo</h1>
+				</th>
+				<th>
+					<h1>Fecha</h1>
+				</th>
+				<th>
+					<h1>Precio</h1>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Plaza Fiesta Anahuac</td>
+				<td>22/01/18</td>
+				<td>$50</td>
+			</tr>
+			<tr>
+				<td>Plaza Fiesta Anahuac</td>
+				<td>22/01/18</td>
+				<td>$50</td>
+			</tr>
+			<tr>
+				<td>Plaza Fiesta Anahuac</td>
+				<td>22/01/18</td>
+				<td>$50</td>
+			</tr>
+		</tbody>
+	</table>-->
 
-        </div>
-    </div>
+	<h1>
+		<span class="yellow">Peliculas</pan>
+	</h1>
+
+	<div id="tour" class="bg-1">
+		<div class="container">
+			<div class="row text-center movie-list">
+				<div class="col-sm-4">
+					<a href="./funciones.html">
+						<div class="thumbnail">
+							<p id="title0">Noche De Juegos</p>
+							<img src="https://static.cinemex.com/movie_posters/81Vl5sJI5zWGu80-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones2.html">
+						<div class="thumbnail">
+							<p id="title0">Un Lugar En Silencio</p>
+							<img src="https://static.cinemex.com/movie_posters/hVQh21JmGZrsXHn-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones3.html">
+						<div class="thumbnail">
+							<p id="title0">Mazinger Z Infinity</p>
+							<img src="https://static.cinemex.com/movie_posters/Yrln4YV1SAg2FxE-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones4.html">
+						<div class="thumbnail">
+							<p id="title0">Suburbicon Bienvenidos Al Paraíso</p>
+							<img src="https://static.cinemex.com/movie_posters/u6kluN36cBWf5HQ-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones5.html">
+						<div class="thumbnail">
+							<p id="title0">Sherlock Gnomes</p>
+							<img src="https://static.cinemex.com/movie_posters/DfIplGZdUVhW9Fn-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones6.html">
+						<div class="thumbnail">
+							<p id="title0">El Gran Huracán Categoría 5</p>
+							<img src="https://static.cinemex.com/movie_posters/3yKwDHJ9pBF5v4a-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones7.html">
+						<div class="thumbnail">
+							<p id="title0">Titanes del Pacífico: La Insurrección</p>
+							<img src="https://static.cinemex.com/movie_posters/bPtBk3axl7jOWxv-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones8.html">
+						<div class="thumbnail">
+							<p id="title0">Hasta Que La Boda Nos Separe</p>
+							<img src="https://static.cinemex.com/movie_posters/OzputiUc1C8OnyQ-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones9.html">
+						<div class="thumbnail">
+							<p id="title0">Un Viaje En El Tiempo</p>
+							<img src="https://static.cinemex.com/movie_posters/6QLaLD0I3lPiAyu-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones10.html">
+						<div class="thumbnail">
+							<p id="title0">Las Travesuras Peter Rabbit</p>
+							<img src="https://static.cinemex.com/movie_posters/FlfCTJF3pw8GORi-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="./funciones11.html">
+						<div class="thumbnail">
+							<p id="title0">Ready Player One: Comienza el Juego</p>
+							<img src="https://static.cinemex.com/movie_posters/GToo9nRW790U0IZ-182x272.jpg" width="182" height="272" href="#" class="img-rounded">
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/gnmenu.js"></script>
+		<script>
+			new gnMenu(document.getElementById('gn-menu'));
+		</script>
+		<!--<script>
+			$.ajax({
+				url: "https://cines-api.herokuapp.com/api/peliculas",
+				type: "GET",
+				success: function (result) {
+					console.log(result);
+					var cont = 0;
+					result.map(pelicula => {
+						console.log(cont);
+						cont++;
+						console.log(pelicula);
+						pelicula.status = 'done'
+						console.log(pelicula.urlPelicula);
+
+						$(".movie-list").append('<div class="col-sm-4">\
+						<div class="thumbnail">\
+							<p id="title0">'+ pelicula.titiloPelicula + '</p>\
+							<img src="'+ pelicula.urlPelicula + '"  width="182" height="272" href =# class="img-rounded">\
+						</a>\
+						</div>');
+					})
 
 
 
-    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
-    <div class="w3-main">
-        <div class="w3-row w3-padding-64">
-            <div id="tour" class="bg-1">
-                <div class="container">
-                    <h3 class="text-center">Cartelera Cinemex</h3>
-                    <p class="text-center">Consulta nuestra Cartelera
-                        <br> Remember to book your tickets!</p>
-                    <div class="row text-center movie-list">
-                    </div>
-                </div>
-            </div>
+					//<a href="./titulos/'+ pelicula.titiloPelicula + '.html">\
+					//t.push(data.titiloPelicula);
+					// console.log(t);
+					//$("<p>" + t + "</p>").appendTo("#title0");
+				}
+			});
+		</script>-->
 
-        </div>
-        <script>
-            // Get the Sidebar
-            var mySidebar = document.getElementById("mySidebar");
-
-            // Get the DIV with overlay effect
-            var overlayBg = document.getElementById("myOverlay");
-
-            // Toggle between showing and hiding the sidebar, and add overlay effect
-            function w3_open() {
-                if (mySidebar.style.display === 'block') {
-                    mySidebar.style.display = 'none';
-                    overlayBg.style.display = "none";
-                } else {
-                    mySidebar.style.display = 'block';
-                    overlayBg.style.display = "block";
-                }
-            }
-
-
-            // Close the sidebar with the close button
-            function w3_close() {
-                mySidebar.style.display = "none";
-                overlayBg.style.display = "none";
-            }
-        </script>
-
-        <script>
-            $.ajax({
-                url: "https://cines-api.herokuapp.com/api/peliculas",
-                type: "GET",
-                success: function (result) {
-                    console.log(result);
-                    var cont = 0;
-                    result.map(pelicula => {
-                        console.log(cont);
-                        cont++;
-                        console.log(pelicula);
-                        pelicula.status = 'done'
-                        console.log(pelicula.urlPelicula);
-
-                        $(".movie-list").append('<div class="col-sm-4">\
-                            <div class="thumbnail">\
-                                    <a href="./titulos/'+ pelicula.titiloPelicula + '.html">\
-                                <p id="title0">'+ pelicula.titiloPelicula + '</p>\
-                                <img src="'+ pelicula.urlPelicula + '" alt="Coco" width="182" height="272" href =# class="img-rounded">\
-                            </a>\
-                            </div>');
-                    })
-
-
-
-                    //t.push(data.titiloPelicula);
-                    // console.log(t);
-                    //$("<p>" + t + "</p>").appendTo("#title0");
-                }
-            });
-        </script>
 </body>
 
 </html>

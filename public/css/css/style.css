@@ -114,20 +114,6 @@ h2 a {
   transition-timing-function: line;
 }
 
-.thumbnail {
-  padding: 0 0 15px 0;
-  border: none;
-  border-radius: 0;
-  border: 1px solid #1F2739 !important;
-  background-color: #1F2739 !important;
-}
-
-.thumbnail p {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  color: rgb(221, 220, 220);
-}
-
 @media (max-width: 800px) {
 .container td:nth-child(4),
 .container th:nth-child(4) { display: none; }
