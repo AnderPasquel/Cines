@@ -120,6 +120,20 @@ router.route('/funciones').get(function (req, res) {
 	})
 })
 
+var cinepolisSchema = mongoose.Schema({
+	funciones: String
+});
+
+var cinepolis = mongoose.model('cinepolis', cinepolisSchema, 'cinepolis');
+
+router.route('/cinepolis').get(function (req, res) {
+	cinepolis.find({}, function (err, cinepolis) {
+		if (err) return console.error(err);
+		res.json(cinepolis);
+		console.log(cinepolis);
+	})
+})
+
 router.route('/funciones/:idMovie').get(function (req, res) {
 	console.log(req.params.idMovie);
 	funciones.find({idMovieUnique: req.params.idMovie}, function (err, funciones) {
@@ -128,5 +142,7 @@ router.route('/funciones/:idMovie').get(function (req, res) {
 		console.log(funciones);
 	})
 })
+
+
 
 module.exports = router; 
