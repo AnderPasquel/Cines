@@ -124,7 +124,7 @@ var cinepolisSchema = mongoose.Schema({
 	funciones: String
 });
 
-var cinepolis = mongoose.model('cinepolis', cinepolisSchema, 'cinepolis');
+var cinepolis = mongoose.model('Cinepolis', cinepolisSchema, 'Cinepolis');
 
 router.route('/cinepolis').get(function (req, res) {
 	cinepolis.find({}, function (err, cinepolis) {
